@@ -9,8 +9,13 @@ const StyledH1 = styled.h1`
     font-weight: 700;
     color: white;
     text-align: center;
-    padding: 15px;
-    font-size: 48px;
+    padding: 1rem;
+    font-size: 2.4rem;
+
+    @media (max-width: 768px) {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
 `;
 
 // Componente

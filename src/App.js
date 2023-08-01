@@ -6,7 +6,7 @@ import Main from './components/Main';
 
 // Estilos
 const AppDiv = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;

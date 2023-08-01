@@ -10,10 +10,14 @@ const ListStyled = styled.ul`
     justify-content: space-between;
     font-weight: 500;
     color: white;
-    font-size: 24px;
+    font-size: 1.4rem;
 
     li {
-        margin: 10px 10px
+        margin: 0.6rem 0.1rem;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
     }
 `;
 

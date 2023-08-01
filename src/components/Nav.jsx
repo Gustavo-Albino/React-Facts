@@ -14,8 +14,28 @@ const NavBar = styled.nav`
     border-radius: 10px;
 
     h3 {
-        font-size: 24px;
+        font-size: 1.8rem;
+        font-weight: 600;
         color: white;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        border-radius: 0;
+        flex-direction: column;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+      }
+      
+
+    @media (max-width: 768px) {
+        border-radius: 0;
+        flex-direction: column;
+
+        h3 {
+            font-size: 1rem;
+        }
     }
 `;
 
@@ -26,15 +46,39 @@ const ImageConteiner = styled.div`
     color: #61DAFB;
     
     img {
-        width: 80px;
+        width: 3rem;
         margin: 0;
         padding: 0;
     }
     
     p {
-        font-size: 30px;
+        font-size: 1.8rem;
         font-weight: 600;
         margin: 0 0 0 10px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        margin: 1rem 0 0 0;
+
+        img {
+            width: 2rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        margin: 1rem 0 0 0;
+
+        img {
+            width: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
     }
 `;
 
